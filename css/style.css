@@ -64,7 +64,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
 	color: #fff;
-	background: #00B3E7ff;
+	background: #00B3E7ff !important;
 	line-height: 1;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
@@ -198,6 +198,7 @@ strong {
     position: absolute;
     left: 50%;
     top: 50%;
+    background: #00B3E7ff !important;
     background-image:url(../images/loading-animation.GIF); 
     background-repeat: no-repeat;
     background-position: center;
@@ -292,6 +293,7 @@ strong {
 /* ==================== 9.0 HOME SECTION - SLIDER ==================== */
 .main-site {
 	position: relative;
+	background: #00B3E7ff !important;
 	height: auto;
 	width: auto;
 	overflow: hidden;
@@ -405,7 +407,7 @@ strong {
   height: 5px;
 }
 .planning, .programming, .developing, .supporting, .marketing {
-  background: #666;
+  background: #00B3E7ff !important;
 }
 .about-heading h1{
   color: #e1e1e1 !important
@@ -1104,7 +1106,7 @@ input:-moz-placeholder { text-overflow: ellipsis; }
 
 
 .section-overlay {
-	background: rgba(0, 0, 0, .4) !important;
+	background: #00B3E7ff !important;
 }
 
 
